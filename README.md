@@ -5,7 +5,7 @@ Mis trabajos realizados durante el cursado de FrontEnd I de DigitalHouse
 *[LemonPie](https://LucenaTeby.github.io/FrontEnd/Ejercicio-3-4) 
 
 #Curriculum de Batman clase 5
-*[Curriculum](https://LucenaTeby.github.io/FrontEnd/CurriculumBatman) 
+*[Curriculum](https://LucenaTeby.github.io/FrontEnd/CV-De-Batman) 
 
 #LemonPie 2.0 clase 6
 *[LemonPie2.0](https://LucenaTeby.github.io/FrontEnd/Lemon-Pie-2) 
