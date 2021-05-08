@@ -17,4 +17,4 @@ Mis trabajos realizados durante el cursado de FrontEnd I de DigitalHouse
 *[Animaciones](https://LucenaTeby.github.io/FrontEnd/Animaciones-clase-12/) 
 
 #Responsive clase 13
-*[Responsive](https://LucenaTeby.github.io/FrontEnd/Responsive-PaginaTurismo/) 
+*[Responsive](https://LucenaTeby.github.io/FrontEnd/Responsive-PaginaTurismo/clase13/) 
