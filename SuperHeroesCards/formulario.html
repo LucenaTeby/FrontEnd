@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;700&family=Karla:wght@300;400&family=Roboto&display=swap');
+    </style>
+
+    <link rel="stylesheet" href="css/stylesFormulario.css">
+
+
+    <title>Formulario</title>
+</head>
+
+
+<body>
+
+    <div class="discount">
+        <p>20% de descuento en todos los productos!</p>
+    </div>
+
+    <header class="header">
+        <a href="index.html"><img class="tienda" src="img/Logomarket.png" alt="tienda"></a>
+        <h1>Nombre Tienda</h1>
+    </header>
+
+    <main>
+
+
+        <nav class="enlaces">
+            <ul>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="registro.html">Registro</a> </li>
+                <li><a href="login.html">Ingresar</a> </li>
+
+            </ul>
+        </nav>
+
+
+        <div class="form-container">
+            <h2>Añadí tu super!</h2>
+
+            <p class="AgregarP">Agregá tu personaje favorito completando las opciones.</p>
+
+            <form action="index.html" method="POST" class="form">
+
+
+                <div class="form-izq">
+                    <label class="items" for="name" required> Nombre </label>
+                    <input class="box" type="text" id="name" name="name">
+
+
+                    <label class="items" for="date"> Fecha </label>
+                    <input class="box" type="date" id="date" name="date" placeholder="dd/mm/aaaa">
+
+                    <textarea class="textBox" name="description" id="description" cols="30" rows="10"
+                        placeholder="Descripcion"></textarea>
+
+                </div>
+
+                <div class="form-der">
+                    <label class="items" for="especie" required> Especie </label>
+                    <select class="box" name="especie" id="especie">
+                        <option value="Indefinido" selected>Indefinido</option>
+                        <option value="Aliens">Aliens</option>
+                        <option value="Saiyajin">Saiyajin</option>
+                        <option value="Criptoniano">Criptoniano</option>
+                        <option value="Hada">Hada</option>
+                        <option value="Deidad">Deidad</option>
+                        <option value="Profesor De FrontEnd">Profesor De FrontEnd</option>
+                    </select>
+
+
+                    <label class="items" for="foto"> Agregar Foto </label>
+                    <input class="foto" type="file" name="img" id="foto" accept=".jpg, .png, .jpeg">
+
+                    <div class="contPoderes">
+                        <h2 class="items">Poderes</h2>
+                        <div class="opciones">
+                            <label class="checks" for="volar">
+                                <input class="checks" type="checkbox" name="volar">
+                                Volar
+                            </label>
+
+                            <label class="checks" for="superinteligencia">
+                                <input type="checkbox" name="superinteligencia">
+                                Superinteligencia
+                            </label>
+
+                            <label class="checks" for="VistaRayoLaser">
+                                <input type="checkbox" name="VistaRayoLaser">
+                                Vista de rayo láser
+                            </label>
+
+                            <label class="checks" for="BilleteraGorda">
+                                <input type="checkbox" name="BilleteraGorda">
+                                Billetera gorda
+                            </label>
+                        </div>
+                    </div>
+
+                    <hr>
+
+                    <div class="contTipoPJ">
+                        <h2 class="items">Tipo de personaje</h2>
+                        <label class="opciones" for="heroe">
+                            <input type="radio" name="tipoPersonaje" id="heroe" value="heroe">
+                            Héroe/Heroína
+                        </label>
+
+                        <label class="opciones" for="villano">
+                            <input type="radio" name="tipoPersonaje" id="villano" value="villano">
+                            Villano/Villana
+                        </label>
+                    </div>
+
+                </div>
+                <input class="button-añadir" type="submit" value="Añadir" id="Añadir">
+
+
+            </form>
+
+           
+        </div>
+    </main>
+
+    <footer>
+        <p>Todos los derechos reservados a FRONT END 1</p>
+    </footer>
+
+
+</body>
+
+</html>

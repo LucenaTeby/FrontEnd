@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;700&family=Karla:wght@300;400&family=Roboto&display=swap');
+
+* {
+    margin     : 0;
+    padding    : 0;
+    font-family: "Roboto";
+    font-weight: 400;
+    box-sizing : border-box;
+
+}
+
+body {
+    background-image     : url('../img/bg\ Harley.png');
+    background-attachment: fixed;
+    background-size      : cover;
+    background-repeat    : no-repeat;
+    height               : auto;
+}
+
+.discount p {
+    background-color: #1cd1b0;
+    font-size       : 15px;
+    padding         : 3px 20px;
+}
+
+header {
+    background-color: #00669f;
+    color           : #fff;
+    padding         : 15px 20px;
+    position        : sticky;
+    top             : 0;
+    z-index         : 1;
+}
+
+.enlaces {
+
+    width     : 100;
+    height    : 40px;
+    left      : -1px;
+    top       : 104px;
+    background: #001D2D;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  
+  .enlaces ul li {
+    width      : 59px;
+    height     : 19px;
+    left       : 1360px;
+    top        : 115px;
+    font-family: Roboto;
+    font-style : normal;
+    font-weight: normal;
+    font-size  : 16px;
+    line-height: 19px;
+    display    : inline;
+    float      : right;
+    color      : #FFFFFF;
+    margin-top : 8px;
+    margin     : 10px 15px 10px 15px;
+
+  
+  }
+
+.enlaces a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+.card {
+    margin     : 12% auto;
+    /*position : relative;*/
+    /* left    : 40%;
+    margin-left: 5%;
+    display    : inline-block;*/
+
+    width           : 50%;
+    height          : auto;
+    text-align      : center;
+    background-color: #f3f3f3;
+    position        : relative;
+    box-shadow      : 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius   : 20px;
+
+}
+
+.card:hover {
+    transform : scale(1.1);
+    transition: 0.3s;
+}
+
+main {
+    text-align: center;
+}
+
+
+.card .harley {
+    width        : 150px;
+    height       : 150px;
+    border-radius: 50%;
+    background   : #C4C4C4;
+    position     : absolute;
+    left         : 40%;
+    top          : -14%;
+
+    /*
+        position     : absolute;
+    left         : 34%;
+    top          : -13%;
+    */
+
+
+}
+
+.card h2 {
+    padding-top: 75px;
+}
+
+.texto {
+    padding   : 15px 20px;
+    text-align: left;
+    height    : auto;
+}
+
+.backHome {
+
+    background: #2C0187;
+
+    /*border-radius     : 7px;
+    border-radius: 0px 0px 45px 45px;*/
+
+    border-radius  : 0 0 20px 20px;
+    color          : #f3f3f3;
+    text-align     : center;
+    text-decoration: none;
+    padding        : 15px 50px;
+    position       : relative;
+    display: block;
+
+   
+}
+
+
+.container-armas {
+
+    margin     : 10% auto;
+    width      : 100%;
+    /*position : relative;*/
+    /* left    : 40%;*/
+}
+
+.container-armas img {
+
+    display      : inline-block;
+    margin-inline: 5%;
+}
+
+.card .corazon {
+
+    margin-top  : 30px;
+    margin-right: 80%;
+    /*
+    display     : inline-block;
+    */
+    font-size   : 30px;
+
+    left  : 0%;
+    right : 0%;
+    top   : 5.34%;
+    bottom: 5.34%;
+
+    border-radius: 0%
+}
+
+footer {
+    /*height      : 70px;*/
+    width       : 100%;
+    /*left      : -136px;
+    top         : 3949px;*/
+
+    background: #00669f;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    font-family: Roboto;
+    font-style : normal;
+    font-weight: normal;
+    font-size  : 36px;
+    line-height: 100%;
+    text-align : center;
+
+    color: #fff9f9;
+
+    margin-top: 100px;
+}
+
+footer p {
+    color         : white;
+    text-align    : center;
+    padding-top   : 3%;
+    padding-bottom: 5px;
+    font-size     : 22px;
+
+}

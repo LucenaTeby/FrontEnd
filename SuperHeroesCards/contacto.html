@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CONTACTO - Superheroes Cards</title>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;700&family=Karla:wght@300;400&family=Roboto&display=swap');
+    </style>
+    <link rel="stylesheet" href="css/contacto.css">
+</head>
+
+<body>
+    <div class="discount">
+        <p>20% de descuento en todos los productos!</p>
+    </div>
+
+    <header>
+        <a href="index.html"><img class="tienda" src="img/Logomarket.png" alt="tienda"></a>
+       <h1>Nombre Tienda</h1>
+    </header>
+
+    <main>
+
+        <nav class="enlaces">
+            <ul>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="registro.html">Registro</a> </li>
+                <li><a href="login.html">Ingresar</a> </li>
+
+            </ul>
+        </nav>
+
+
+        <div class="contacto">
+            <h2>Contacto</h2>
+            <form class="form" action="contacto.html" method="POST">
+                <input type="text" id="nombre" name="nombre" placeholder="Nombre y Apellido" required>
+
+                <input type="email" id="email" name="email" placeholder="Correo Electrónico" required>
+
+                <textarea name="comentario" id="comentario"></textarea>
+
+                <div class="container-bottons">
+                    <input class="reset" type="reset" value="Resetear" id="resetear">
+
+                    <input class="entrar" type="submit" value="Entrar" id="entrar">
+                </div>
+
+            </form>
+
+        </div>
+    </main>
+
+    <footer>
+        <p>Todos los derechos reservados a FRONT END 1</p>
+    </footer>
+
+</body>
+
+</html>

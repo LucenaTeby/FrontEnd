@@ -1,0 +1,223 @@
+  @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400");
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;700&family=Karla:wght@300;400&family=Roboto&display=swap');
+
+  * {
+    margin     : 0;
+    padding    : 0;
+    font-family: "Roboto";
+    font-weight: 400;
+  }
+
+  .discount p {
+    background-color: #1cd1b0;
+    font-size       : 15px;
+    padding         : 3px 20px;
+  }
+
+  header {
+    width           : 100%;
+    background-color: #00669f;
+    color           : #fff;
+    position        : sticky;
+    top             : 0;
+    z-index         : 1;
+    display         : flex;
+}
+
+h1 {
+
+  font-family: Roboto;
+  font-style : normal;
+  font-weight: normal;
+  font-size  : 30px;
+  line-height: 35px;
+  padding-top: 0.5em;
+
+
+}
+
+  .enlaces {
+    
+    width     : 100;
+    height    : 40px;
+    left      : -1px;
+    top       : 104px;
+    background: #001D2D;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .enlaces ul li {
+    width      : 59px;
+    height     : 19px;
+    left       : 1360px;
+    top        : 115px;
+    font-family: Roboto;
+    font-style : normal;
+    font-weight: normal;
+    font-size  : 16px;
+    line-height: 19px;
+    display    : inline;
+    float      : right;
+    color      : #FFFFFF;
+    margin-top : 8px;
+    margin     : 10px 15px 10px 15px;
+
+  }
+
+  .enlaces a {
+    text-decoration: none;
+    color          : #ffffff;
+  }
+
+.scroll{
+  overflow-x: scroll;
+  display: inline-flex;
+  gap: 25px;
+}
+
+  .card {
+    margin     : 5% auto;
+    width      : 350px;
+    /*position : relative;*/
+    /* left    : 40%;*/
+    display    : inline-block;
+  
+    min-width: 300px;
+  }
+
+  .card:hover {
+    transform : scale(1.05);
+    transition: 0.3s;
+  }
+
+  main {
+    text-align: center;
+  }
+
+  .content {
+    text-align      : center;
+    background-color: #f3f3f3;
+    position        : relative;
+    height          : 350px;
+    box-shadow      : 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius   : 0 0 20px 20px;
+  }
+
+  .content img {
+    width        : 150px;
+    height       : 150px;
+    border-radius: 50%;
+    position     : absolute;
+    left         : 26%;
+    top          : -22%;
+  }
+
+  .content h2 {
+    padding-top: 75px;
+  }
+
+  .texto {
+    padding   : 15px 20px;
+    text-align: left;
+    height    : 100px;
+  }
+
+  .verMas {
+    background-color: #00669f;
+    border-radius   : 7px;
+    color           : #f3f3f3;
+    text-align      : center;
+    text-decoration : none;
+    padding         : 15px 50px;
+    position        : relative;
+    bottom          : -65px;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  .top-back {
+    background-image : url("../img/bg-batman.jpg");
+    background-repeat: no-repeat;
+    background-size  : cover;
+    height           : 200px;
+  }
+
+  .top-back2 {
+    background-image : url("../img/bg-wonderw.jpg");
+    background-repeat: no-repeat;
+    background-size  : cover;
+    height           : 200px;
+  }
+
+  .top-back3 {
+    background-image : url("../img/bg-superman.jpg");
+    background-repeat: no-repeat;
+    background-size  : cover;
+    height           : 200px;
+  }
+
+  .top-back4 {
+    background-image : url("../img/bg\ Harley.png");
+    background-repeat: no-repeat;
+    background-size  : cover;
+    height           : 200px;
+  }
+
+  .top-card {
+    border-radius: 20px 20px 0 0;
+  }
+
+  .fa-heart {
+    color       : red;
+    margin-top  : 15px;
+    margin-right: 70%;
+    display     : inline-block;
+    font-size   : 30px;
+
+  }
+
+  .fa-plus-circle {
+    color    : #00669f;
+    position : fixed;
+    font-size: 70px;
+    right    : 1%;
+    top      : 50%;
+    cursor   : pointer;
+  }
+
+  .fa-plus-circle:hover {
+
+    color      : #001D2D;
+    font-weight: bold;
+    transition : 0.3s;
+  }
+
+  footer {
+    /*height      : 70px;*/
+    width       : 100%;
+    /*left      : -136px;
+  top           : 3949px;*/
+
+    background: #00669f;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    font-family: Roboto;
+    font-style : normal;
+    font-weight: normal;
+    font-size  : 36px;
+    line-height: 100%;
+    text-align : center;
+
+    color: #fff9f9;
+  }
+
+  footer p {
+    color         : white;
+    text-align    : center;
+    padding-top   : 3%;
+    padding-bottom: 5px;
+    font-size     : 22px;
+
+  }
